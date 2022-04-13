@@ -17,7 +17,6 @@ class MainActivity : AppCompatActivity() {
 
         DynamicColors.applyToActivitiesIfAvailable(application)
 
-
         val overviewFragment: OverviewFragment = OverviewFragment()
         val manageFragment: ManageFragment = ManageFragment()
         val accountFragment: AccountFragment = AccountFragment()
