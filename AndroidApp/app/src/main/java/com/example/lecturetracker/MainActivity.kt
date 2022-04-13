@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
 
         setCurrentFragment(overviewFragment)
 
-        findViewById<BottomNavigationView>(R.id.bottomNavigationView).setOnNavigationItemSelectedListener {
+        findViewById<BottomNavigationView>(R.id.bottomNavigationView).setOnItemSelectedListener {
             when (it.itemId) {
                 R.id.overview_button -> setCurrentFragment(overviewFragment)
                 R.id.manage_button -> setCurrentFragment(manageFragment)
